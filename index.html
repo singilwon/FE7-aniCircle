@@ -2,18 +2,16 @@
 <html lang="ko">
   <head>
     <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="./My.css" />
     <meta charset="UTF-8" />
   </head>
   <body>
-    <header style="position: relative; left: 770px; top: 100px">
-      <img
-        src="./myPhoto.jpg"
-        style="width: 200px; height: 200px; position: relative; left: 8px"
-      />
-      <h1>Song Joowon</h1>
+    <header>
+      <img src="./myPhoto.svg" />
     </header>
     <main>
-      <section style="position: relative; left: 530px; top: 120px">
+      <section>
+        <h1 class="name">Song Joowon</h1>
         <table>
           <tr>
             <td>
@@ -25,20 +23,20 @@
                 <li>E-mail : joowoni98@naver.com</li>
               </ul>
             </td>
-            <td style="position: relative; left: 150px">
+            <td>
               <h2>About Developer</h2>
               <ul>
                 <li>
-                  <span style="font-weight: bold">멋쟁이 사자처럼</span>
+                  <a href="#likelion"><span>멋쟁이 사자처럼</span></a>
                   연합동아리 자체 대회 <br />프론트엔드 참가
                 </li>
                 <li>
-                  <span style="font-weight: bold">모여톤</span> 대회 프론트엔드
+                  <a href="#moyeothon"><span>모여톤</span></a> 대회 프론트엔드
                   참가
                 </li>
                 <li>
-                  <span style="font-weight: bold">데브코스 프론트엔드</span>
-                  과정 참가
+                  <a href="#devcourse"><span>데브코스 프론트엔드</span></a> 과정
+                  참가
                 </li>
               </ul>
             </td>
@@ -50,20 +48,32 @@
               데브코스를 마칠 때는 누구보다 화려하고 멋진<br />
               페이지를 만들 수 있는 실력자가 되도록 하겠습니다!
             </td>
-            <td style="position: relative; left: 150px; top: 15px">
+            <td>
               <h2>Play(guess my birth)</h2>
               <ul>
-                <li><a href="./26.html">26</a></li>
-                <li><a href="./27.html">27</a></li>
-                <li><a href="./28.html">28</a></li>
-                <li><a href="./29.html">29</a></li>
+                <a href="./26.html"><button>26</button></a>
+                <a href="./27.html"><button>27</button></a>
+                <a href="./28.html"><button>28</button></a>
+                <a href="./29.html"><button>29</button></a>
               </ul>
             </td>
           </tr>
         </table>
       </section>
-    </main>
+      <section id="likelion">
+        <h2>멋쟁이 사자처럼</h2>
+        <p>멋사 연합동아리 자체 대회에서 프론트엔드로 참가하여...</p>
+      </section>
 
-    <footer></footer>
+      <section id="moyeothon">
+        <h2>모여톤</h2>
+        <p>모여톤 대회에서 프론트엔드로 참여하며...</p>
+      </section>
+
+      <section id="devcourse">
+        <h2>데브코스 프론트엔드</h2>
+        <p>데브코스 과정에서 실무 중심 프론트엔드 역량을...</p>
+      </section>
+    </main>
   </body>
 </html>

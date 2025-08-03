@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  background-attachment: fixed;
+  background: linear-gradient(
+    180deg,
+    rgba(13, 148, 136, 1) 0%,
+    rgba(34, 197, 94, 1) 100%
+  );
+}
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section > h1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  position: relative;
+  top: 40px;
+  width: 150px;
+  height: 150px;
+}
+
+span {
+  font-weight: bold;
+}
+
+section {
+  box-shadow: 3px 3px 3px 3px #48612e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(186, 209, 164);
+  border-radius: 10px;
+  padding: 3%;
+}
+
+table {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+button {
+  color: rgb(156, 165, 143);
+  font-size: large;
+  margin: 2%;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+button:hover {
+  background-color: rgb(173, 173, 173);
+  color: rgb(105, 110, 97);
+  cursor: pointer;
+}
+
+section#likelion,
+section#moyeothon,
+section#devcourse {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #d0e8c0;
+  color: #333;
+  border-radius: 10px;
+  width: 700px;
+}
